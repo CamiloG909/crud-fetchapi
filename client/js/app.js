@@ -110,7 +110,7 @@ class UI {
 					this.modalTransition();
 					ui.showMessage(response.message, "error");
 				})
-				.catch((e) => ui.showMessage("Ocurrió un error", "error"));
+				.catch((e) => ui.showMessage("An error occurred", "error"));
 		});
 
 		this.modalTransition();
@@ -193,7 +193,7 @@ function addProduct(e) {
 			closeModal();
 			ui.showMessage(response.message);
 		})
-		.catch((e) => ui.showMessage("Ocurrió un error", "error"));
+		.catch((e) => ui.showMessage("An error occurred", "error"));
 }
 
 function editProductForm(e) {
@@ -230,7 +230,7 @@ function editProduct(e) {
 			closeModal();
 			ui.showMessage(response.message);
 		})
-		.catch((e) => ui.showMessage("Ocurrió un error", "error"));
+		.catch((e) => ui.showMessage("An error occurred", "error"));
 }
 
 function deleteProduct(e) {
